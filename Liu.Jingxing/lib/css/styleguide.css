@@ -14,6 +14,15 @@
 	--color-black:#000 ;
 	--color-white:#fff ;
 
+	--color-primary-grey: #F7F7F7;
+	--color-primary-white: #FFF;
+
+	--color-secondary-black: #1D1E1F;
+	--color-secondary-yellow: #EFB217;
+	--color-secondary-grey: #A0A1A1;
+
+	--color-neutral: #5ABFB7;
+	--color-heighlight: #89549F;
 
 	--header-height: 3rem;
 	--spacing: 1rem;
@@ -29,14 +38,41 @@ body{
 	font-family:var(--font-sans);
 }
 
+@font-face {
+    font-family: 'MyriadPro-Bold'; 
+	src: url('../../font/MyriadPro-Bold.otf'); 
+} 
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-serif);
+	font-family: "MyriadPro-Bold";
 }
+
+h1{
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.bodyText1{
+	font-size: 14px;
+}
+
+.bodyText2 {
+	font-size: 12px;
+}
+
+.buttonText {
+	font-size: 10px;
+}
+
 
 a{
 	color:inherit; 
@@ -92,7 +128,7 @@ a: hover{
 }
 
 .nav .active a {
-	background-color: var(--color-main-light);
+	background-color: var(--color-heighlight);
 	color: inherit;
 }
 
@@ -221,6 +257,46 @@ a: hover{
 	background-attachment: fixed;
 
 }
+
+/* Colors */
+.colors {
+	width:100%;
+	height: 200px;
+}
+
+.primary-grey {
+	background-color: var(--color-primary-grey);
+}
+
+.primary-white {
+	background-color: var(--color-primary-white);
+}
+
+.secondary-black {
+	background-color: var(--color-secondary-black);
+}
+
+.secondary-yellow {
+	background-color: var(--color-secondary-yellow);
+}
+
+.secondary-grey {
+	background-color: var(--color-secondary-grey);
+}
+
+.neutral {
+	background-color: var(--color-neutral);
+}
+
+.highlight {
+	background-color: var(--color-heighlight);
+}
+
+
+
+
+
+
 
 /* Tables */
 .table {
