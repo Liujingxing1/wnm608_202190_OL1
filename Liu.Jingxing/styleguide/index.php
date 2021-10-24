@@ -1,30 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
   <title>CSS Styleguide</title>
+	<?php include "../parts/meta.php"; ?>
 
-  <link rel="stylesheet" href="../lib/css/styleguide.css">
-  <link rel="stylesheet" href="../lib/css/gridsystem.css">
-  <link rel="stylesheet" href="../css/storetheme.css">
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>	
 </head>
 <body>
-  <header class="navbar">
-    <div class="container display-flex">
-      <div class="flex-none">
-        <h1>Styleguide</h1>
-      </div>
-      <div class="flex-stretch"></div>
-      <nav class="flex-none nav">
-        <ul class="container display-flex">
-          <li><a href="#tableOfContents">Table of Content</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+	<?php include "../parts/navbar.php"; ?>
+  
 
   <div class="container" id="tableOfContents">
   	<h2>Table of Content</h2>
