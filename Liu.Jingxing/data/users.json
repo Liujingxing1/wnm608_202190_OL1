@@ -1,0 +1,51 @@
+[{
+    "name": "Elizabeth Cruz",
+    "type": "Designer",
+    "email": "brendabaker@smith.info",
+    "classes": ["027"]
+}, {
+    "name": "Kevin Carrillo",
+    "type": "Professor",
+    "email": "rodney24@gmail.com",
+    "classes": ["912", "321", "568"]
+}, {
+    "name": "James Black",
+    "type": "Instructor",
+    "email": "williamsmary@yahoo.com",
+    "classes": ["085", "113", "426"]
+}, {
+    "name": "Aaron Simpson",
+    "type": "Instructor",
+    "email": "courtneyjohnson@black.com",
+    "classes": ["549", "399", "513"]
+}, {
+    "name": "Tasha Wilkerson",
+    "type": "Actor",
+    "email": "jessicamcfarland@gmail.com",
+    "classes": ["460", "009", "530", "060", "283", "691"]
+}, {
+    "name": "Jessica Andrade",
+    "type": "Student",
+    "email": "erikray@murillo-black.com",
+    "classes": ["998", "861", "418", "233", "172"]
+}, {
+    "name": "Jose Lindsey",
+    "type": "Student",
+    "email": "deanna04@fisher.com",
+    "classes": ["447", "491", "054", "118", "594", "156", "152", "740"]
+}, {
+    "name": "Leslie Thomas",
+    "type": "Designer",
+    "email": "tammymunoz@yahoo.com",
+    "classes": ["436", "950", "680", "886"]
+}, {
+    "name": "Tiffany Mcgee",
+    "type": "Designer",
+    "email": "steven44@ryan.com",
+    "classes": ["287", "374", "232", "274", "649"]
+}, {
+    "name": "John Li",
+    "type": "Coach",
+    "email": "ufischer@yahoo.com",
+    "classes": ["285", "242", "376", "742", "965"]
+}]
