@@ -74,7 +74,7 @@ HTML;
 			<div class="flex-stretch"></div>
 			<nav class="nav nav-flex flex-none">
 				<ul>
-					<li><a href="admin/users.php">User List</a></li>
+					<li><a href="users.php">User List</a></li>
 				</ul>
 			</nav>
 		</div>
