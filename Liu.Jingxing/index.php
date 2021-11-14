@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Here Fitness</title>
-
-  <link rel="stylesheet" href="lib/css/styleguide.css">
-  <link rel="stylesheet" href="css/storetheme.css">
+<?php include "parts/meta.php"; ?>
 </head>
 
 
 <body>
-  <header class="navbar">
+  <?php include "parts/navbar.php"; ?>
+<!--   <header class="navbar">
     <div class="container display-flex">
       <div class="flex-none">
         <h1>Here Fitness</h1>
@@ -26,7 +25,7 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </header> -->
 
 
 
