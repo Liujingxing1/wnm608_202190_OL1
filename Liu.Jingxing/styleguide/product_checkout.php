@@ -1,3 +1,9 @@
+<?php
+include_once "../lib/php/functions.php";
+include_once "../parts/templates.php";
+$cart_itmes = getCartItems();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +18,12 @@
 
 
 	<div class="container">
+		<div class="card soft">
+			<h2>ORDER SUMMARY</h2>
+ 			<?=array_reduce($cart_itmes,'cartListTemplateForCheckout')?>
+ 			<?=cartTotalsForCheckout()?>
+		</div>
+
 		<div class="card soft">
 		   <h2>Prodct Checkout</h2>
 

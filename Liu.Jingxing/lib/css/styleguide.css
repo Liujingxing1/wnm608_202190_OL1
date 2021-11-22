@@ -258,6 +258,15 @@ a: hover{
 
 }
 
+.card-section~.card-section{
+	border-top: 1px solid var(--color-neutral-light);
+}
+
+.card-section{
+	padding: 1em;
+}
+
+
 /* Colors */
 .colors {
 	width:100%;
@@ -440,6 +449,9 @@ a: hover{
 	color: var(--color-neutral-medium);
 }
 
+.form-button.inline{
+	width: initial;
+}
 
 /*Toggle*/
 .toggle label {

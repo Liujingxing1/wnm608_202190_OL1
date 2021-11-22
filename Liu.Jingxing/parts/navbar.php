@@ -8,7 +8,10 @@
       <ul class="container display-flex">
           <li><a href="styleguide/index.php">HOME</a></li>
           <li><a href="styleguide/product_list.php">STORE</a></li>
-          <li><a href="styleguide/product_cart.php">CART</a></li>
+          <li><a href="styleguide/product_cart.php">
+            <span>CART</span>
+            <span class="badge"><?=makeCartBadge();?></span>
+          </a></li>
       </ul>
     </nav>
   </div>

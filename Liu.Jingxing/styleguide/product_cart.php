@@ -3,8 +3,8 @@
 include_once "../lib/php/functions.php";
 include_once "../parts/templates.php";
 
-$cart =  makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN(1,2,3,7)");
-
+// $cart =  makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN(1,2,3,7)");
+$cart_itmes = getCartItems();
 ?>
 
 <!DOCTYPE html>
@@ -23,26 +23,12 @@ $cart =  makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN(1,2,3,7)"
 			 <div class="grid gap">
 			 	<div class="col-xs-12 col-md-7">
 			 		<div class="card soft">
-			 			<?=array_reduce($cart,'cartListTemplate')?>
-			 		</div>
+			 			<span class="cart-basket"><?=array_reduce($cart_itmes,'cartListTemplate')?></span>
+			 		</div>	
 			 	</div>
 			 	<div class="col-xs-12 col-md-5">
 			 		<div class="card soft flat">
-			 			<div class="card-section display-flex">
-			 				<div class="flex-stretch">Sub Total</div>
-			 				<div class="flex-none">&dollar;3.50</div>
-			 			</div>
-			 			<div class="card-section display-flex">
-			 				<div class="flex-stretch">Taxes</div>
-			 				<div class="flex-none">&dollar;3.50</div>
-			 			</div>
-			 			<div class="card-section display-flex">
-			 				<div class="flex-stretch">Total</div>
-			 				<div class="flex-none">&dollar;7.00</div>
-			 			</div>
-			 			<div class="card-section">
-			 				<a href="styleguide/product_checkout.php" class="form-button">Checkout</a>
-			 			</div>
+			 			<?=cartTotals()?>
 			 		</div>
 			 	</div>
 			 </div>
