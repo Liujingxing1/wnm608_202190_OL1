@@ -41,7 +41,7 @@ function getCart(){
 	return isset($_SESSION['cart']) ? $_SESSION['cart']:[];
 }
 
-function addToCart($id,$amount,$type){
+function addToCart($id,$amount,$types){
 	$cart = getCart();
 
 	$p = array_find($cart,function($o) use($id) {return $o->id==$id;});
@@ -52,7 +52,7 @@ function addToCart($id,$amount,$type){
 		$_SESSION['cart'][] = (object)[
 		"id"=>$id,
 		"amount"=>$amount,
-		"type"=>$type
+		"types"=>$types
 	];}
 
 }
