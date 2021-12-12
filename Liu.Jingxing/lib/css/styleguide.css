@@ -105,7 +105,7 @@ a: hover{
 
 .flex-align-center { align-items:  center; }
 .flex-justify-center { justify-items:  center; }
-
+.flex-wrap {flex-wrap: wrap;}
 
 /* COMPONENET CLASSES */
 
@@ -217,6 +217,9 @@ a: hover{
 	padding: 0 0.5em ;
 }
 
+.flush>.navbar{
+	margin-bottom: 0;
+}
 
 /* CARD */
 .card{
@@ -246,6 +249,11 @@ a: hover{
 }
 .card.flat {
 	padding: 0;
+}
+
+[class*='col-']>.card{
+	height: 100%;
+	margin: 0;
 }
 
 .view-window{

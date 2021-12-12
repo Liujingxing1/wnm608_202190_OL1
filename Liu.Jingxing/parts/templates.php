@@ -164,7 +164,10 @@ function recommendedSimilar($cat, $id=0, $limit=3){
 	recommendedProducts($result);
 }
 
-
+function recommendedAnything($limit=3){
+	$result = makeQuery(makeConn(), "SELECT * FROM `products` ORDER BY rand() LIMIT $limit");
+	recommendedProducts($result);
+}
 
 
 
