@@ -5,39 +5,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Here Fitness</title>
+  <title>SHAPE</title>
 <?php include "parts/meta.php"; ?>
 </head>
 
 
 <body>
   <?php include "parts/navbar.php"; ?>
-<!--   <header class="navbar">
-    <div class="container display-flex">
-      <div class="flex-none">
-        <h1>Here Fitness</h1>
-      </div>
-      <div class="flex-stretch"></div>
-      <nav class="flex-none nav">
-        <ul class="container display-flex">
-          <li><a href="#article1">We Provide</a></li>
-          <li><a href="#article2">How to buy</a></li>
-          <li><a href="#article3">About Us</a></li>
-          <li><a href="#article4">Holiday Deliveries</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header> -->
-
-
 
 <div class="container">
+  <div class="card soft">
+    <h1>SHAPE</h1>
+    <p>SHAPE is a sportswear brand focusing on extreme sports, which aims to help every fitness lover get better sports performance through technological means.</p>
+    <p>Shape your own future!</p>
+
+      <div class="form-control-1">
+      <a href="product_list.php" class="form-button">Explore</a>
+    </div>
+  </div>
+
   <article id="article" class="article card soft">
     <div class="display-flex flex-align-center">
       <div class="flex-stretch">
         <h2>We Provide</h2>
       </div>
-      <div class="flex-none"><small>more...</small></div>
+      <div class="flex-none"><a href="styleguide/product_list.php"><small>more...</small></a></div>
     </div>
     <div class="article-body">
       <p>Sportswear</p>
@@ -49,7 +41,7 @@
 
 
 
-  <article id="article2" class="article card hard">
+  <article id="article2" class="article card soft">
     <h2>How to buy</h2>
     <div class="article-body">
       <p>

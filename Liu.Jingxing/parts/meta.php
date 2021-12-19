@@ -6,4 +6,6 @@
 <link rel="stylesheet" href="lib/css/gridsystem.css">
 <link rel="stylesheet" href="css/storetheme.css">
 
+<link rel="icon" href="img/icon.png" type="image/x-icon"/>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>	
